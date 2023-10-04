@@ -1,7 +1,9 @@
+function calculateBMI() {
+    const weight = Number(prompt("Enter your weight in kilograms:"));
+    const height = Number(prompt("Enter your height in meters:"));
 
-const num1 = Number(prompt("enter"));
-const num2 = Number(prompt("enter"));
-
-function add(x,y){
-    console.log(x + y)
+    const bmi = weight / (height * height);
+    console.log(bmi);
 }
+
+calculateBMI();
